@@ -1,7 +1,7 @@
 import _ from "lodash";
 import React from "react";
 
-import { anatomiesByComponent } from "../sources/index";
+import { anatomiesByComponent } from "../../sources/index";
 
 const Anatomy = ({ component }) => {
   const anatomy = anatomiesByComponent[component];

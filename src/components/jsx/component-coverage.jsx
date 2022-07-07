@@ -1,6 +1,6 @@
 import React from "react";
 import _ from "lodash";
-import { componentsByName } from "../sources/index";
+import { componentsByName } from '../../sources/index';
 
 const ComponentCoverage = ({ component }) => {
   const matchingComponents = _.get(componentsByName, component);

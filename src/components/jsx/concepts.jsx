@@ -1,6 +1,6 @@
 import React from "react";
 import _ from "lodash";
-import { openUIConceptsByComponent } from "../sources";
+import { openUIConceptsByComponent } from '../../sources';
 
 const Concepts = ({ component }) => {
   const [showDescriptions, setShowDescriptions] = React.useState(false);

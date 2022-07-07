@@ -1,7 +1,7 @@
 import React from "react";
 import CommunityLinks from "./community-links";
 import Logo from "./logo";
-import BarsIcon from "../icons/bars";
+import BarsIcon from '../../icons/bars';
 
 const Header = ({ siteTitle = "" }) => {
   return (

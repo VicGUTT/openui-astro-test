@@ -1,6 +1,6 @@
 ---
 import _ from "lodash";
-import CommunityLinks from "./community-links";
+import CommunityLinks from "./jsx/community-links";
 
 const posts = await Astro.glob('../pages/**/*.md');
 const allFrontmatter = posts.map((post) => post.frontmatter);

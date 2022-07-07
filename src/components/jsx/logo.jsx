@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "./image";
+import Image from "../jsx/image";
 
 const Logo = ({ siteTitle = "" }) => (
   <a to="/" style={{ textDecoration: "none", color: "inherit" }}>
