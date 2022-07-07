@@ -1,16 +1,16 @@
 ---
 import React from "react";
 import BaseLayout from "./BaseLayout.astro";
-import Header from "../components/jsx/header";
+import "../components/lit/header";
 import Navigation from "../components/navigation.astro";
 ---
 
 <BaseLayout>
   <div>
-    <Header />
+    <o-header></o-header>
+
     <div class="page-wrapper">
       <Navigation />
-
 
       <main class="page-content">
         <slot />
