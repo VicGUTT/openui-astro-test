@@ -1,7 +1,7 @@
 import React from "react";
 import CommunityLinks from "./community-links";
 import Logo from "./logo";
-import BarsIcon from '../../icons/bars';
+import Icon from './icon';
 
 const Header = ({ siteTitle = "" }) => {
   return (
@@ -38,7 +38,7 @@ const Header = ({ siteTitle = "" }) => {
           // aria-expanded={menuOpened ? "true" : "false"}
           aria-controls="site-nav"
         >
-          <BarsIcon width={16} />
+          <Icon name="bars" width={16} />
         </button>
       </div>
     </header>
